@@ -1,0 +1,37 @@
+/*!
+ * Widths-responsive generator plugin for inuitcss, by @EtienneMagnier
+ * This module is an extension of the `widths-generator` module.
+ *
+ * Licence: MIT
+ * github.com/emagnier/trumps.widths-responsive-generator
+ */
+
+/*------------------------------------*\
+    #WIDTHS-RESPONSIVE-GENERATOR
+\*------------------------------------*/
+
+/**
+ * Responsive width classes based on your responsive settings.
+ */
+
+@each $breakpoint in $breakpoints {
+
+  $alias:     nth($breakpoint, 1);
+
+  // This isn’t ideal, but we definitely don’t want to generate widths
+  // for retina devices. Exclude retina media-queries manually.
+  @if ($alias != "retina") {
+
+    /**
+     * #{to-upper-case(str-slice($alias, 0, 1))}#{to-lower-case(str-slice($alias, 2))}.
+     */
+
+    @include media-query($alias) {
+
+      @include inuit-widths-generator($alias + '-', $inuit-widths...);
+
+    } // Close media query.
+
+  } // Close retina check.
+
+} // Close breakpoints loop.
