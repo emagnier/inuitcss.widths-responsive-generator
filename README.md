@@ -1,7 +1,7 @@
 # Widths-responsive Generator
 
 The inuitcss `widths-responsive-generator` module is an extension of the [`widths-generator`
-module](https://github.com/emagnier/trumps.widths-generator).
+module](https://github.com/emagnier/inuitcss.widths-generator).
 
 This module **completely replace the default [`widths-responsive`](https://github.com/inuitcss/trumps.widths-responsive)
 module** of inuitcss. So it's not necessary to load both the default `widths-responsive` module
@@ -17,7 +17,7 @@ Install using Bower:
 
 ## Configuration
 
-`widths-responsive-generator` will inherit the same settings used for [`widths-generator`](https://github.com/emagnier/trumps.widths-generator) (i.e.
+`widths-responsive-generator` will inherit the same settings used for [`widths-generator`](https://github.com/emagnier/inuitcss.widths-generator) (i.e.
 namespaces and fraction vs. spoken-word format).
 
 `widths-responsive-generator` loops through the breakpoints defined in
