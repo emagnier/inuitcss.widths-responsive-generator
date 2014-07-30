@@ -1,15 +1,15 @@
 {
   "name": "inuit-widths-responsive-generator",
   "version": "0.1.0",
-  "homepage": "https://github.com/emagnier/trumps.widths-responsive-generator",
+  "homepage": "https://github.com/emagnier/inuitcss-trumps.widths-responsive-generator",
   "repository": {
     "type": "git",
-    "url": "git://github.com/emagnier/trumps.widths-responsive-generator.git"
+    "url": "git://github.com/emagnier/inuitcss-trumps.widths-responsive-generator.git"
   },
   "authors": [
     "Etienne Magnier <etienne.magnier@gmail.com>"
   ],
-  "description": "Responsively controlled width classes for the inuitcss framework and the inuit-widths-generator module",
+  "description": "Responsively controlled width classes for the inuitcss framework and the inuit-widths-generator module.",
   "main": "_trumps.widths-responsive-generator.scss",
   "keywords": [
     "inuitcss",
