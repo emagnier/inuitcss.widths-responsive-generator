@@ -15,7 +15,7 @@
     "inuitcss",
     "oocss",
     "css",
-	  "rwd"
+    "rwd"
   ],
   "license": "MIT",
   "dependencies": {

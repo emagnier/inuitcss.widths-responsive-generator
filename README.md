@@ -14,6 +14,10 @@ Install using Bower:
 
     $ bower install --save inuit-widths-responsive-generator
 
+Install using npm:
+
+    $ npm install --save inuit-widths-responsive-generator
+
 
 ## Configuration
 
